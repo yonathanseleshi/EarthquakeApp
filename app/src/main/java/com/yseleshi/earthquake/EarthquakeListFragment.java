@@ -143,6 +143,8 @@ public class EarthquakeListFragment extends Fragment implements VolleyClassStrin
         volleyClassString.makeNetworkRequests(quakeFeed);
     }
 
+
+
     @Override
     public void onInfoAvailable(String responseString) {
         ArrayList<Earthquake> earthquakes;
